@@ -1,23 +1,112 @@
-<html>
-<head>
-<title>STEPHIN HAWKING</title>
-<body  style="background-color:#C0C0C0;">
-<br>
-<h3 align =center><b>STEPHIN HAWKING</b><h3>
-<br>
-<center><img  src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg"  width="300" height="300"></center>
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
 
-<p><i>Stephen William Hawking CH CBE FRS FRSA (8 January 1942 – 14 March 2018) was a British theoretical physicist and mathematician. He was born in Oxford. In 1950, he moved to St Albans, Hertfordshire. He was one of the world's leading theoretical physicists.Hawking has written many science books for people who are not scientists.</i></p>
-<br>
-<p><i>Hawking was a professor of mathematics at the University of Cambridge (a position that Isaac Newton once had). He retired on 1 October 2009.</i></p>
-<br>
-<p><i>Hawking had a motor neurone disease related to his dyslexia, and because of that he could not move or talk very well. The illness worsened over the years and he was almost completely paralysed. He used a wheelchair to move, and an Intel computer to talk for him. He died on 14 March 2018.</i></p>
-<br>
-<p><i>Hawking's scientific works included a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Initially, Hawking radiation was controversial. By the late 1970s and following the publication of further research, the discovery was widely accepted as a significant breakthrough in theoretical physics. Hawking was the first to set out a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics. He was a vigorous supporter of the many-worlds interpretation of quantum mechanics.</i></p>
-<br>
-<p><i>Hawking achieved commercial success with several works of popular science in which he discussed his theories and cosmology in general. His book A Brief History of Time appeared on the Sunday Times bestseller list for a record-breaking 237 weeks. Hawking was a Fellow of the Royal Society, a lifetime member of the Pontifical Academy of Sciences, and a recipient of the Presidential Medal of Freedom, the highest civilian award in the United States. In 2002, Hawking was ranked number 25 in the BBC's poll of the 100 Greatest Britons. He died on 14 March 2018 at the age of 76, after living with motor neurone disease for more than 50 years.</i></p>
-<br>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="">
+    <img src="https://newsroom.intel.com/wp-content/uploads/sites/11/2016/10/Stephen-Hawking-Birthday-Celebration-1024x681.png" style="width:100%">
+    <div class="">
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="http://www.ctc.cam.ac.uk/hawking70/images/faculty.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcwu2n7tDlzcfw7M1QjJ68wEFkX2b6iKtuow&usqp=CAU" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Stephen Hawking</h2>
+    <p class="w3-justify">Stephen William Hawking CH CBE FRS FRSA (8 January 1942 – 14 March 2018) was a British theoretical physicist and mathematician. He was born in Oxford. In 1950, he moved to St Albans, Hertfordshire. He was one of the world's leading theoretical physicists.Hawking has written many science books for people who are not scientists.Hawking was a professor of mathematics at the University of Cambridge (a position that Isaac Newton once had). He retired on 1 October 2009. Hawking had a motor neurone disease related to his dyslexia, and because of that he could not move or talk very well. The illness worsened over the years and he was almost completely paralysed. He used a wheelchair to move, and an Intel computer to talk for him. He died on 14 March 2018.Hawking's scientific works included a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Initially, Hawking radiation was controversial. By the late 1970s and following the publication of further research, the discovery was widely accepted as a significant breakthrough in theoretical physics. Hawking was the first to set out a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics. He was a vigorous supporter of the many-worlds interpretation of quantum mechanics.Hawking achieved commercial success with several works of popular science in which he discussed his theories and cosmology in general. His book A Brief History of Time appeared on the Sunday Times bestseller list for a record-breaking 237 weeks. Hawking was a Fellow of the Royal Society, a lifetime member of the Pontifical Academy of Sciences, and a recipient of the Presidential Medal of Freedom, the highest civilian award in the United States. In 2002, Hawking was ranked number 25 in the BBC's poll of the 100 Greatest Britons. He died on 14 March 2018 at the age of 76, after living with motor neurone disease for more than 50 years.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+     
+        <img src="" class="" alt="" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="" class="" alt="" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+ 
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i><b>This is Chanchal Dubey . This is my first website</b></i></p>
+    <div class="w3-row w3-padding-32">
+    
+     
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+
+
 
 </body>
 </html>
